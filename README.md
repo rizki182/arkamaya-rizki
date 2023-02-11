@@ -75,9 +75,13 @@ Jalankan perintah berikut untuk install laravel dependency
 composer install
 ```
 
-Perintah import skema database dan isi database dengan data awal
+Jalankan perintah berikut untuk import skema database
 ```sh
 php artisan migrate
+```
+
+ Jalankan perintah berikut untuk mengisi database dengan data awal
+ ```sh
 php artisan db:seed
 ```
 
