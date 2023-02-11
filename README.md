@@ -69,7 +69,7 @@ Lalu sesuaikan variabel database dengan konfigurasi databse anda
 ```
 DB_HOST= {mariadb host address}
 DB_PORT= {mariadb port}
-DB_DATABASE= {database name (database dengan harus sudah ada dengan data kosong )}
+DB_DATABASE= {database name (database harus sudah ada dengan data kosong )}
 DB_USERNAME= {database username}
 DB_PASSWORD= {database password}
 ```
