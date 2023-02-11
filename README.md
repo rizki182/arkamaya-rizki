@@ -15,7 +15,7 @@ cd arkamaya-rizki/docker
 docker compose up -d
 ```
 
-Setelah proses deploy selesai akses url berikut melalui browser. Jika muncul pesan **Bad Gateway** tunggu beberapa saat lalu coba refresh halaman kembali
+Setelah proses deploy selesai akses url berikut melalui browser. Jika muncul pesan **Bad Gateway** berarti dependency belum selesai diinstall, tunggu beberapa saat lalu refresh halaman beberapa kali sampai aplikasi bisa diakses
 ```sh
 http://localhost:8080
 ```
