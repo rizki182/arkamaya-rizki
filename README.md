@@ -47,6 +47,7 @@ Database : db_project_rizki
 - php-cli
 - php-mysql
 - php-xml
+- php-curl
 - composer
 - mariadb
 ```
