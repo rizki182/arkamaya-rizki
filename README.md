@@ -61,7 +61,7 @@ git clone https://github.com/rizki182/arkamaya-rizki.git
 ```sh
 cd arkamaya-rizki/code
 ```
-Edit file **.env** configurasi laravel. Lalu sesuaikan variabel database dengan konfigurasi databse anda
+Edit file **.env**, dan sesuaikan variabel database dengan konfigurasi databse anda
 ```
 DB_HOST= {mariadb host address}
 DB_PORT= {mariadb port}
