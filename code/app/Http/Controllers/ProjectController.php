@@ -24,14 +24,7 @@ class ProjectController extends Controller
     }
     
     public function list(Request $request){
-
-        $data = [
-            "projects" => Project::list($request),
-            "client_combobox" => Client::combobox(),
-            "project_status" => ProjectStatus::class,
-            "filter" => !empty($request["filter"]) ? $request["filter"] : [],
-        ];
-
+        $data = Project::list($request);
         return response()->json($data, 200);
     }
 

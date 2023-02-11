@@ -96,7 +96,7 @@
               <div class="card-body">
                     <form id="project_form">
                     <div class="form-group">
-                      <label for="project_name">Project Name</label>
+                      <label for="project_name">Rizki Faishal</label>
                       <input type="textfield" class="form-control project_form" id="project_name" placeholder="Project Name" value="{{ $project->project_name }}">
                     </div>
                     <div class="form-group">

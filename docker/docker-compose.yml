@@ -3,6 +3,7 @@ services:
 
   nginx:
     image: nginx:1.21.5
+    container_name: arkamaya-rizki-nginx
     restart: unless-stopped
     ports:
       - 8080:80
@@ -14,6 +15,7 @@ services:
 
   mariadb:
     image: mariadb:10.10
+    container_name: arkamaya-rizki-mariadb
     restart: unless-stopped
     environment:
       MARIADB_ROOT_PASSWORD: root
@@ -25,6 +27,7 @@ services:
 
   adminer:
     image: adminer:4
+    container_name: arkamaya-rizki-adminer
     restart: unless-stopped
     ports:
       - 8081:8080
@@ -34,6 +37,7 @@ services:
       context: .
       dockerfile: ./images/php/Dockerfile
     image: phpcomposer:arkamaya
+    container_name: arkamaya-rizki-php
     restart: unless-stopped
     volumes:
       - ../code:/var/www/html
