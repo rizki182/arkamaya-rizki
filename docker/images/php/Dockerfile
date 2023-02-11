@@ -28,7 +28,7 @@ RUN docker-php-ext-install -j$(nproc) gd
 COPY --from=composer:2.2 /usr/bin/composer /usr/bin/composer
 
 RUN curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
-RUN apt-get install nodejs
+RUN apt-get update && apt-get install nodejs
 RUN npm install --global yarn
 
 # Clear cache
