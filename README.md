@@ -43,7 +43,7 @@ Database : db_project_rizki
 
 **Requirement**
 ```
-- php
+- php >= 8.1
 - php-cli
 - php-mysql
 - php-xml
