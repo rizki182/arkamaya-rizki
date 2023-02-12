@@ -101,3 +101,13 @@ Form-data:
 - email   : test@test.test
 - password: password
 ```
+
+
+## Troubleshoot
+Jika saat deploy terjadi timeout tambahkan atau edit file **/etc/docker/daemon.json**
+```sh
+{
+  "dns": ["8.8.8.8", "8.8.4.4"]
+}
+```
+Lalu restart service docker
